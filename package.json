@@ -1,0 +1,26 @@
+{
+  "name": "express-app-heroku-example-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=dev&& jasmine",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveBacteria/node-express-app-heroku-example-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiveBacteria/node-express-app-heroku-example-app/issues"
+  },
+  "homepage": "https://github.com/LiveBacteria/node-express-app-heroku-example-app#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
