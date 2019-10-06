@@ -1,0 +1,14 @@
+body {
+    background-color: #a6a6a6;
+    text-align: center;
+}
+
+div.container {
+    background-color: dimgrey;
+    border: white solid 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
