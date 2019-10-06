@@ -7,6 +7,7 @@ const request = require('request');
 const port = process.env.PORT || 3000;
 const apiKey = process.env.weatherApiKey;
 
+console.log(port);
 console.log(apiKey);
 
 app.listen(port, () => {
